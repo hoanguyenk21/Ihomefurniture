@@ -53,32 +53,32 @@ body {
 }
 
 /*----------- header --------------------- */
-.anh img {
-  width: 163px;
-  height: 163px;
-  margin: 0 auto 28px auto;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+.bo {
+  border: dashed 1px black;
+  padding-top: 6%;
+  padding-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .anh .items .text {
   position: relative;
-  padding: 10px 55px;
+  padding: 10px 48px;
   color: white;
 }
 
 .anh .items .text:before {
   content: url(../images/affter.png);
   position: absolute;
-  left: 1px;
+  left: 10px;
   top: 0;
 }
 
 .anh .items .text:after {
   content: url(../images/before.png);
   position: absolute;
-  right: 1px;
+  right: 10px;
   top: 0;
 }
 
