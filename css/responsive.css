@@ -310,6 +310,9 @@
 }
 
 @media only screen and (max-width:479px) {
+	.bo{
+	        padding-top: 13% !important;
+	}
 	.anh img{
 		width: 100px !important ; height: 100px !important; margin-left: 30% !important; 
 	}
