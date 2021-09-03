@@ -67,7 +67,9 @@ body {
   padding: 10px 48px;
   color: white;
 }
-
+.nl{
+background-color: #FFFFFF;
+}
 .anh .items .text:before {
   content: url(../images/affter.png);
   position: absolute;
